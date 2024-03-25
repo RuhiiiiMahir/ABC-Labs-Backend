@@ -51,6 +51,3 @@ To set up the backend server locally, follow these steps:
 
 Contributions to the Lab Appointment System are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve the system.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
