@@ -52,7 +52,7 @@ public class AppointmentController {
         return ResponseEntity.status(HttpStatus.CREATED).body(savedAppointment);
     }
 
-    private void sendConfirmationEmail(String to, String subject, String body) {
+    public void sendConfirmationEmail(String to, String subject, String body) {
         emailService.sendEmail(to, subject, body);
     }
 

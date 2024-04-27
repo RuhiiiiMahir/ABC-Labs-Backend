@@ -145,7 +145,7 @@ public class PaymentController {
     }
 
 
-    private void sendConfirmationEmailWithAttachment(String to, String subject, String body, byte[] attachment) {
+    public void sendConfirmationEmailWithAttachment(String to, String subject, String body, byte[] attachment) {
         emailService.sendConfirmationEmailWithAttachment(to, subject, body, attachment, "Invoice");
     }
 
